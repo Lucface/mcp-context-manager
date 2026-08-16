@@ -102,7 +102,7 @@ Opening `mcp_list_file` is unguarded; a missing/unreadable file raises a bare `F
 *Fix:* `try/except FileNotFoundError` → log and `sys.exit(1)`.
 
 **No test suite for a ~450-line engine**
-`/Users/lucascooper-bey/Developer/tools/mcp-context-manager`
+`~/Developer/tools/mcp-context-manager`
 `MCMEngine` (discovery, parsing, API I/O, file I/O, JSON) has 0% coverage; no pytest/unittest/test dir.
 *Fix:* Add `test/test_mcm_engine.py`: mock `requests` for GitHub/npm/Exa; cover `parse_mcp_input` edge cases, API error paths (404/500/timeout), JSON failures, file-I/O failures, and metadata round-trip.
 

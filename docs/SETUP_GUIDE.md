@@ -15,8 +15,8 @@ I created a complete system called **MCM (MCP Context Manager)** that:
 5. ✅ Works invisibly after setup - just use Claude Code normally
 
 **Files Created:**
-- `/Users/lucascooper-bey/.claude/commands/mcm.md` - Your slash command interface (200+ page guide)
-- `/Users/lucascooper-bey/.claude/scripts/mcm/` - All the automation scripts
+- `~/.claude/commands/mcm.md` - Your slash command interface (200+ page guide)
+- `~/.claude/scripts/mcm/` - All the automation scripts
 - Discovery engine, status checker, validator, and more
 
 **Total Context Savings:** 90-95% reduction in MCP baseline context usage
